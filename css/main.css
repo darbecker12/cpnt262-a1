@@ -1,0 +1,24 @@
+body{
+  height: 100vh;
+  background: linear-gradient(black, white);
+  color: white;
+}
+
+/* Creating the style for the button */
+button {
+  border: 1px solid black;
+  background: grey;
+  height: 70px;
+  width: 100px;
+  cursor: pointer;
+}
+
+button:hover{
+  border: 5px solid blue;
+  background: grey;
+}
+
+button:active{
+  border: 1px solid blue;
+  background: white;
+} 
